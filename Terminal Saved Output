@@ -1,0 +1,81 @@
+
+****************
+1) Golams-MacBook-Pro:GIT_Test gmustafa$ cd CourseraDataScience/
+
+2) Golams-MacBook-Pro:CourseraDataScience gmustafa$ git init
+Initialized empty Git repository in /Users/gmustafa/Google Drive/GIT_Test/CourseraDataScience/.git/
+
+3) Golams-MacBook-Pro:CourseraDataScience gmustafa$ git remote add origin "https://github.com/hitupy/d3333333atasciencecoursera.git"
+
+4) Golams-MacBook-Pro:CourseraDataScience gmustafa$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3
+Unpacking objects: 100% (3/3), done.
+From https://github.com/hitupy/datasciencecoursera
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+5)Golams-MacBook-Pro:CourseraDataScience gmustafa$ git add -A
+
+6) Golams-MacBook-Pro:CourseraDataScience gmustafa$ git commit -a -m "Commiting HelloWorld"
+[master 13e8d4d] Commiting HelloWorld
+ 1 file changed, 1 insertion(+)
+ create mode 100644 HelloWorld.md
+
+7) Golams-MacBook-Pro:CourseraDataScience gmustafa$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/hitupy/datasciencecoursera.git
+   551245a..13e8d4d  master -> master
+
+
+
+
+*********************
+Golams-MacBook-Pro:GIT_Test gmustafa$ git status
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git commit -a -m "this will commit all"
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git log
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git branch B1
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git checkout B1
+Switched to branch 'B1'
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git checkout master
+Switched to branch 'master'
+
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git checkout B1
+Switched to branch 'B1'
+
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git add -A
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git commit -a -m "commit in branch B1"
+[B1 ea5b10b] commit in branch B1
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test  copy 3.docx
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git push origin B1
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 16.11 KiB | 5.37 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/hitupy/git_github.git
+ * [new branch]      B1 -> B1
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git checkout master
+Switched to branch 'master'
+
+Golams-MacBook-Pro:GIT_Test gmustafa$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/hitupy/git_github.git
+   ab31178..790198f  master -> master
+
